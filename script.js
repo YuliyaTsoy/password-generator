@@ -14,6 +14,12 @@ var passwordLength = prompt(
   "Choose password length of at least 8 characters and no more than 128 characters"
 );
 
+//validation of password length
+if (passwordLength < 8 || passwordLength > 128 || !passwordLength) {
+  alert("Please choose password length between 8 and 128 characters!")
+  
+} window.location.reload();
+
 // lowercase
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var allowableCharacters = " ";
