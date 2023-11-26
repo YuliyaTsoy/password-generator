@@ -49,6 +49,16 @@ if (passwordSpecial) {
   allowableCharacters += specialCaracter;
 }
 
+// Validation
+if (
+  !passwordLowerCase &&
+  !passwordUpperCase &&
+  !passwordNumeric &&
+  !passwordSpecial
+) {
+  alert("Please choose at least one character type!");
+}
+
 // generate password
 function generatePassword() {
   password = " ";
