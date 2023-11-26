@@ -12,7 +12,6 @@ function writePassword() {
 var passwordLength = prompt(
   "Choose password length of at least 8 characters and no more than 128 characters"
 );
-
 // lowercase
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var allowableCharacters = " ";
@@ -22,7 +21,6 @@ var passwordLowerCase = confirm(
 if (passwordLowerCase) {
   allowableCharacters += lowerCase;
 }
-
 // uppercase
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var passwordUpperCase = confirm(
@@ -31,7 +29,6 @@ var passwordUpperCase = confirm(
 if (passwordUpperCase) {
   allowableCharacters += upperCase;
 }
-
 //numbers
 var number = "0123456789";
 var passwordNumeric = confirm("Do you want to include numeric characters?");
