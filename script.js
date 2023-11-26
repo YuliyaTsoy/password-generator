@@ -56,7 +56,8 @@ if (
   !passwordNumeric &&
   !passwordSpecial
 ) {
-  alert("Please choose at least one character type!");
+  if (alert("Please choose at least one character type!")) {
+  } else window.location.reload();
 }
 
 // generate password
