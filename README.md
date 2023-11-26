@@ -14,3 +14,9 @@ https://yuliyatsoy.github.io/password-generator/
 ## The following screenshot shows web application appearence:
 
 ![Alt text](image.png)
+
+## Credits:
+
+https://stackoverflow.com/questions/1966476/how-can-i-process-each-letter-of-text-using-javascript
+
+I used above resource to learn about charAt method
