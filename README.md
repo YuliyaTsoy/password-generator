@@ -19,4 +19,5 @@ https://yuliyatsoy.github.io/password-generator/
 
 https://stackoverflow.com/questions/1966476/how-can-i-process-each-letter-of-text-using-javascript
 
-I used above resource to learn about charAt method
+1. I used above resource to learn about charAt method
+2. I applied some hints and heads ups from my TA to navigate through the process of resolving this task
