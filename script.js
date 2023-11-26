@@ -50,16 +50,13 @@ if (passwordSpecial) {
 }
 
 // generate password
-
 function generatePassword() {
   password = " ";
-
   for (var i = 0; i < passwordLength; i++) {
     var randomIndex = Math.floor(Math.random() * allowableCharacters.length);
     var randomCharacter = allowableCharacters.charAt(randomIndex);
     password += randomCharacter;
   }
-
   return password;
 }
 
