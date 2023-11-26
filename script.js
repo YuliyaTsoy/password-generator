@@ -17,7 +17,7 @@ var passwordLength = prompt(
 //validation of password length
 while (passwordLength < 8 || passwordLength > 128 || !passwordLength) {
   passwordLength = prompt(
-    "Please try again. Choose password length between 8 and 128 characters!"
+    "You can do it! Try again. Choose password length between 8 and 128 characters!"
   );
 }
 
