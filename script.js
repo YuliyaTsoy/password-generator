@@ -49,7 +49,7 @@ if (passwordSpecial) {
   allowableCharacters += specialCaracter;
 }
 
-// Validation
+// Validation and reload
 if (
   !passwordLowerCase &&
   !passwordUpperCase &&
